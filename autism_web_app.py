@@ -51,7 +51,7 @@ def main():
     diagnosis=''
     
     #creating a button for prediction
-    if st.button('Asthma Test Result'):
+    if st.button('Autism Test Result'):
         diagnosis=autism_prediction([Social_Responsiveness_Scale,Age,Autism_score,speech_disorder,Learning_disorder,Genetic_Disorders,Depression,intellectual_disability,Behavioural_Issues,Anxiety_disorder,Sex,Jaundice,Family_mem_with_ASD])
         
     st.success(diagnosis)
