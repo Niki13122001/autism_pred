@@ -9,7 +9,7 @@ import numpy as np
 import pickle 
 import streamlit as st
 
-loaded_model=pickle.load(open("C:/Users/nikitha/Downloads/autism/autism_model.pkl",'rb'))
+loaded_model=pickle.load(open("autism_model.pkl",'rb'))
 
 #creating a function for prediction
 def autism_prediction(input_data):
